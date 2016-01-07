@@ -1,5 +1,4 @@
 #NorrisBot
-scottyc/norrisbot
 
 A Chuck Norris bot for Slack.
 
