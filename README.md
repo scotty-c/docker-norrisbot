@@ -9,7 +9,7 @@ A big thanks to ['lmammino/norrisbot'](https://github.com/lmammino/norrisbot/) w
 ##Running
 ```
 docker run -d \ 
-       -e BOT_API_KEY="<ENTER YOUR SLACK API KEY HERE>" \ 
+       -e NORRISBOT_TOKEN="<ENTER YOUR SLACK API KEY HERE>" \ 
        --name norrisbot \  
        scottyc/norrisbot
 ```
