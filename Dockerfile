@@ -6,7 +6,7 @@ CMD ["/bin/bash", "-l"]
 RUN apt-get -qqy update
 RUN npm install -g norrisbot
 
-ENV BOT_API_KEY=""
+ENV NORRISBOT_TOKEN=""
 
 ENTRYPOINT 'norrisbot'
 
